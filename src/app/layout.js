@@ -21,10 +21,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
-        <video className="video-background" autoPlay loop muted>
-          <source src="/video/background_video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <div className="video-background-container">
+          <video className="video-background" autoPlay loop muted>
+            <source src="video\4990242-hd_1920_1080_30fps.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </body>
     </html>
   );

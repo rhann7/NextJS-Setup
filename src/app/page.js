@@ -14,7 +14,7 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            Welcome to my first {" "}
+            First {}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 rounded font-semibold">
               NextJS Project.
             </code>
